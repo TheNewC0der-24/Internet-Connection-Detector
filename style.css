@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+:root{
+    --white: #fff;
+    --black: #1c2b2d;
+    --light-blue: #005490;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Dongle', sans-serif;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    padding: 0 20px;
+}
+
+section{
+    background-color: var(--black);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+section h1{
+    color: var(--white);
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+section p {
+    color: var(--white);
+    font-size: 4rem;
+}
+
+.online{
+    background-color: var(--light-blue);
+}
+
+section img {
+    width: 25%;
+    border-radius: 10rem;
+}
